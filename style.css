@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Press+Start+2P&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -76,4 +78,42 @@
         bottom: 0;
     }
     
+}
+
+.game-over{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1c90a;
+    color: #ff1000;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 30px solid #f1850a;
+    text-align: center;
+}
+
+.game-over h1{
+    font-family:'Press Start 2P', cursive;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.game-over p, span{
+    font-family: 'Poor Story', cursive;
+    font-size: 60px;
+}
+
+.game-over button{
+    background-color: #ff1000;
+    color: #fff;
+    font-size: 28px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 2px solid #fff;
 }

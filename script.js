@@ -1,6 +1,13 @@
 const mario = document.querySelector(".mario");
 const clouds = document.querySelector(".clouds")
 
+
+const gameOver = () => {
+    
+}
+
+
+
 const marioJump = () => {
     mario.classList.add("jump");
     setTimeout(() =>{
